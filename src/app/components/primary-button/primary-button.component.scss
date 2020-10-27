@@ -1,0 +1,31 @@
+.button {
+    border: 1px solid;
+    padding: 10px 15px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+
+.button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Aaux Next Bold";
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-blue {
+  border-color: #3997ab;
+}
+
+.btn-blue:hover {
+  background-color: #3997ab;
+}
+
+.btn-blue a {
+  color: #3997ab;
+}
+
+.btn-blue:hover a {
+  color: #fff !important;
+}

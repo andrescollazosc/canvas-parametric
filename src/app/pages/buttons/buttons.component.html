@@ -1,0 +1,26 @@
+<h1>Buttons</h1>
+<hr />
+<h4>Buttons</h4>
+<app-primary-button></app-primary-button>
+
+<hr />
+<h4>Normal buttons</h4>
+
+<div class="row">
+  <app-secondary-buttom
+    *ngFor="let button of buttonModel"
+    [buttonModel]="button"
+    class="col-12 col-sm-3 col-md-3"
+  ></app-secondary-buttom>
+</div>
+
+<hr />
+<h4>Outline buttons</h4>
+
+<div class="row">
+  <app-secondary-buttom
+    *ngFor="let button of buttonNomalModel"
+    [buttonModel]="button"
+    class="col-12 col-sm-3 col-md-3"
+  ></app-secondary-buttom>
+</div>

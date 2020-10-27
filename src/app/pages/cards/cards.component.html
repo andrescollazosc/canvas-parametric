@@ -1,0 +1,20 @@
+<h1>Cards</h1>
+<hr />
+<h3>First version</h3>
+
+<div class="row">
+  <app-people-card class="col"></app-people-card>
+  <app-people-card class="col"></app-people-card>
+  <app-people-card class="col"></app-people-card>
+</div>
+
+<hr />
+<h3>Second version</h3>
+
+<div class="row">
+  <app-secondary-card
+    *ngFor="let card of cardModel"
+    [cardModel]="card"
+    class="col-12 col-sm-12 col-md-5 col-lg-4"
+  ></app-secondary-card>
+</div>

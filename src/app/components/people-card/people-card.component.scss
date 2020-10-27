@@ -1,0 +1,93 @@
+.OurPeople-container {
+  display: flex;
+  align-content: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.OurPeople-author {
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  padding: 15px;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.OurPeople_photo-container {
+  width: 35%;
+}
+
+.OurPeople_info-container {
+  width: 58vw;
+}
+
+.OurPeople_authorName {
+  font-size: 20px;
+  font-weight: 600;
+  color: #47535f;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.OurPeople_authorPosition {
+  font-size: 16px;
+  color: #47535f;
+  text-align: left;
+  line-height: 24px;
+  margin: 0;
+}
+
+.OurPeople_authorPhoto {
+  height: 85px;
+  width: 85px;
+  display: inline-block;
+  justify-content: center;
+}
+
+.OurPeople_authorPhoto img {
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  width: 100%;
+  height: auto;
+}
+
+@supports (object-fit: cover) {
+  .Author-photo img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+
+@media (min-width: 992px) {
+  .OurPeople_photo-container {
+    width: 15vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .OurPeople-author {
+    flex-direction: column;
+    margin: 0.8rem;
+    // TO DO: se realizo una corrección
+    width: 16vw;
+  }
+
+  .OurPeople_photo-container,
+  .OurPeople_info-container {
+    align-self: center;
+    text-align: center;
+  }
+
+  .OurPeople_photo-container {
+    width: 35%;
+  }
+
+  .OurPeople_authorName,
+  .OurPeople_authorPosition {
+    text-align: center;
+  }
+}

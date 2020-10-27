@@ -1,0 +1,12 @@
+<div class="container-card">
+  <div class="container-card__container-image">
+    <img [src]="cardModel.img" alt="" />
+  </div>
+  <div class="container-card__author-name">
+    {{ cardModel.authorName }}
+  </div>
+  <div class="container-card__author-charge">
+    {{ cardModel.authorCharge }}
+  </div>
+  <app-secondary-buttom [buttonModel]="cardModel.button"></app-secondary-buttom>
+</div>
