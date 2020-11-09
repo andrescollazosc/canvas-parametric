@@ -1,0 +1,52 @@
+@import "../../styles/abstracs/variables";
+
+.button {
+  padding: 10px 15px;
+  margin-top: 20px;
+  display: inline-block;
+  border: 1px solid;
+}
+
+.button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: "Aaux Next Regular";
+  font-weight: 600;
+}
+
+.pagination-etc {
+  margin: 0;
+  padding: 0.6rem;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Aaux Next Regular";
+  font-weight: 600;
+}
+
+.btn-pagination {
+  border-color: $border-gray-color;
+}
+
+.btn-pagination a {
+  color: $border-gray-color;
+}
+
+.btn-active {
+  border-color: $secondary-color;
+  background-color: $secondary-color;
+}
+
+.btn-pagination:hover,
+.btn-pagination:active {
+  background-color: $border-gray-color;
+}
+
+.btn-active a,
+.btn-pagination:hover a,
+.btn-pagination:active a {
+  color: $primary-color;
+}
+
+@media (min-width: 768px) {
+}

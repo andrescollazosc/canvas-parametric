@@ -10,6 +10,8 @@ import { CardsComponent } from './pages/cards/cards.component';
 import { PeopleCardComponent } from './components/people-card/people-card.component';
 import { SecondaryCardComponent } from './components/secondary-card/secondary-card.component';
 import { SecondaryButtomComponent } from './components/secondary-buttom/secondary-buttom.component';
+import { PaginationComponent } from './components/pagination/pagination.component';
+import { LinksComponent } from './pages/links/links.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { SecondaryButtomComponent } from './components/secondary-buttom/secondar
     CardsComponent,
     PeopleCardComponent,
     SecondaryCardComponent,
-    SecondaryButtomComponent
+    SecondaryButtomComponent,
+    PaginationComponent,
+    LinksComponent
   ],
   imports: [
     BrowserModule,
