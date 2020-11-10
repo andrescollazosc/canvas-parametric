@@ -19,6 +19,10 @@ button {
   background: $secondary-color;
 }
 
+.btn-primary:hover {
+  filter: brightness(120%);
+}
+
 // button secondary
 .btn-secondary {
   border: none;
@@ -26,11 +30,19 @@ button {
   background: $tertiary-color;
 }
 
+.btn-secondary:hover {
+  filter: brightness(120%);
+}
+
 // button tertiary
 .btn-tertiary {
   border: none;
   color: $primary-color;
   background: $primary-text-color;
+}
+
+.btn-tertiary:hover {
+  filter: brightness(120%);
 }
 
 // Buttons Outline

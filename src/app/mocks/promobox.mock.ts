@@ -65,7 +65,7 @@ export class PromoboxMock {
           'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt enim nemo odio. Voluptatum aliquid illum veniam reprehenderit.',
         tags: 'TypeScript, CSS3, HTML5, JS',
         configBtn: {
-          class: "btn-outline-tertiary",
+          class: "btn-secondary",
           text: 'BIO'
         }
       },
