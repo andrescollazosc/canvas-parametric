@@ -7,7 +7,7 @@ import { SecondaryButtonModel } from '../../models/secondary-button.model';
   styleUrls: ['./buttons.component.scss']
 })
 export class ButtonsComponent implements OnInit {
-
+  public labelBtn: string = 'BIO';
   public buttonModel: SecondaryButtonModel[] = [];
   public buttonNomalModel: SecondaryButtonModel[] = [];
 

@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PeopleCardComponent implements OnInit {
 
+  public labelBtn: string = 'BIO';
+
   constructor() { }
 
   ngOnInit(): void {
