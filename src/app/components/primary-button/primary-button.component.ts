@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-primary-button',
@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PrimaryButtonComponent implements OnInit {
 
+  @Input() labelBtn: string;
+
   constructor() { }
 
   ngOnInit(): void {
+    if (this.labelBtn === '') {
+      this.labelBtn = 'BIO';
+    }
   }
 
 }

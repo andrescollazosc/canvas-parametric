@@ -1,0 +1,21 @@
+<h1>Promo Boxes</h1>
+<h3>Medium Promo box</h3>
+<hr />
+<div class="row">
+  <app-promobox
+    *ngFor="let item of configModel"
+    [configPromoBox]="item"
+    class="col-12 col-sm-12 col-md-10 col-lg-6"
+  ></app-promobox>
+</div>
+
+<hr />
+<h3>Modern Promo box</h3>
+<hr />
+<div class="row">
+  <app-promobox-card
+    *ngFor="let item of configModel"
+    [configPromoBox]="item"
+    class="col-12 col-sm-12 col-md-5 col-lg-4"
+  ></app-promobox-card>
+</div>

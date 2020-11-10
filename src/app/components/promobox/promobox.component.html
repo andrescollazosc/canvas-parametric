@@ -1,0 +1,36 @@
+<div class="container-promobox">
+  <div class="container-promobox__contianer-image">
+    <img [src]="configPromoBox.bannerImg" alt="" />
+  </div>
+  <div class="container-promobox__container-body">
+    <div class="container-promobox__blog-type">
+      {{ configPromoBox.blogType }}
+    </div>
+    <div class="container-promobox__title">
+      {{ configPromoBox.title }}
+    </div>
+    <div class="container-promobox__container-author">
+      <div class="container-promobox__image-author">
+        <img [src]="configPromoBox.authorImg" alt="" />
+      </div>
+      <div class="container-promobox__author">
+        <div class="container-promobox__name">
+          by {{ configPromoBox.authorName }}
+        </div>
+        <div class="container-promobox__date">
+          {{ configPromoBox.date }}
+        </div>
+      </div>
+    </div>
+    <div class="container-promobox__text">
+      {{ configPromoBox.description }}
+    </div>
+
+    <app-primary-button [labelBtn]="labelBtn"></app-primary-button>
+
+    <div class="container-promobox__container-tag">
+        Tags: {{ configPromoBox.tags }}
+    </div>
+
+  </div>
+</div>

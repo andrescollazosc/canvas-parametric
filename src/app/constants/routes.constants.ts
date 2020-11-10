@@ -2,6 +2,7 @@ export class RoutesConstants {
   static ROUTES = {
     BUTTONS: 'buttons',
     CARDS: 'cards',
-    LINKS: 'links'
+    LINKS: 'links',
+    PROMOS: 'promos'
   };
 }

@@ -12,6 +12,9 @@ import { SecondaryCardComponent } from './components/secondary-card/secondary-ca
 import { SecondaryButtomComponent } from './components/secondary-buttom/secondary-buttom.component';
 import { PaginationComponent } from './components/pagination/pagination.component';
 import { LinksComponent } from './pages/links/links.component';
+import { PromoboxComponent } from './components/promobox/promobox.component';
+import { PromosComponent } from './pages/promos/promos.component';
+import { PromoboxCardComponent } from './components/promobox-card/promobox-card.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { LinksComponent } from './pages/links/links.component';
     SecondaryCardComponent,
     SecondaryButtomComponent,
     PaginationComponent,
-    LinksComponent
+    LinksComponent,
+    PromoboxComponent,
+    PromosComponent,
+    PromoboxCardComponent
   ],
   imports: [
     BrowserModule,
