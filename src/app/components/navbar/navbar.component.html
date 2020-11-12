@@ -1,35 +1,30 @@
 <nav class="container-navbar">
-  <!-- Menu Bars -->
-  <!-- <div class="menu-bars" id="menu-bars">
-    <div class="bar1"></div>
-    <div class="bar2"></div>
-    <div class="bar3"></div>
-  </div> -->
+  <div class="container-main">
+    <img
+      class="img-navbar"
+      src="../../../assets/img/Parametriclogo600x1202x.png"
+      width="30"
+      height="30"
+      alt=""
+      loading="lazy"
+    />
 
-  <img
-    class="img-navbar"
-    src="../../../assets/img/Parametriclogo600x1202x.png"
-    width="30"
-    height="30"
-    alt=""
-    loading="lazy"
-  />
+    <div class="navbar-items">
+      <div class="label">foundation</div>
+      <a class="item">Layout <span class="sr-only">(current)</span></a>
+      <a class="item">Typography</a>
+      <a class="item">Color</a>
+      <a class="item">Iconography</a>
+    </div>
 
-  <div class="navbar-items">
-    <div class="label">foundation</div>
-    <a class="item">Layout <span class="sr-only">(current)</span></a>
-    <a class="item">Typography</a>
-    <a class="item">Color</a>
-    <a class="item">Iconography</a>
-  </div>
-
-  <div class="navbar-items">
-    <div class="label">components</div>
-    <a class="item" [routerLink]="routes.BUTTONS"
-      >Buttons <span class="sr-only">(current)</span></a
-    >
-    <a class="item" [routerLink]="routes.CARDS">Cards</a>
-    <a class="item" [routerLink]="routes.LINKS">Links</a>
-    <a class="item" [routerLink]="routes.PROMOS">Promos</a>
+    <div class="navbar-items">
+      <div class="label">components</div>
+      <a class="item" [routerLink]="routes.BUTTONS"
+        >Buttons <span class="sr-only">(current)</span></a
+      >
+      <a class="item" [routerLink]="routes.CARDS">Cards</a>
+      <a class="item" [routerLink]="routes.LINKS">Links</a>
+      <a class="item" [routerLink]="routes.PROMOS">Promos</a>
+    </div>
   </div>
 </nav>
