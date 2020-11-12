@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SecondCardModel } from '../../models/secondary-card.model';
+import { TitleModel } from '../../models/title.model';
 
 @Component({
   selector: 'app-cards',
@@ -10,10 +11,32 @@ export class CardsComponent implements OnInit {
 
   public cardModel: SecondCardModel[] = [];
 
+  public bigTitle: TitleModel;
+  public firstTitle: TitleModel;
+  public secondTitle: TitleModel;
+
   constructor() { }  
 
   ngOnInit(): void {
+    this.configTitles();
     this.getDataCards();
+  }
+
+  private configTitles(): void {
+    this.bigTitle = {
+      label: 'Cards',
+      class: 'title big-title',
+    };
+  
+    this.firstTitle = {
+      label: 'First version',
+      class: 'title medium-title',
+    };
+  
+    this.secondTitle = {
+      label: 'Second version',
+      class: 'title medium-title',
+    };
   }
 
   private getDataCards(): void {
@@ -40,7 +63,7 @@ export class CardsComponent implements OnInit {
       authorName: 'Tania Bertolozzi',
       authorCharge: 'User experience',
       button: {
-        text: 'Guardar',
+        text: 'See more',
         class: "btn-outline-secondary"
       }
     }];

@@ -15,6 +15,7 @@ import { LinksComponent } from './pages/links/links.component';
 import { PromoboxComponent } from './components/promobox/promobox.component';
 import { PromosComponent } from './pages/promos/promos.component';
 import { PromoboxCardComponent } from './components/promobox-card/promobox-card.component';
+import { TitleComponent } from './components/title/title.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { PromoboxCardComponent } from './components/promobox-card/promobox-card.
     LinksComponent,
     PromoboxComponent,
     PromosComponent,
-    PromoboxCardComponent
+    PromoboxCardComponent,
+    TitleComponent
   ],
   imports: [
     BrowserModule,

@@ -1,26 +1,28 @@
-<h1>Buttons</h1>
+<app-title [titleModel]="bigTitle"></app-title>
 <hr />
-<h4>Buttons</h4>
+
+<app-title [titleModel]="buttonsTitle"></app-title>
 <app-primary-button [labelBtn]="labelBtn"></app-primary-button>
 
 <hr />
-<h4>Outline buttons</h4>
+<app-title [titleModel]="outlineTitle"></app-title>
+
 <div class="row">
   <app-secondary-buttom
     *ngFor="let button of buttonModel"
     [buttonModel]="button"
-    class="col-12 col-sm-3 col-md-3"
+    class="col-12 col-sm-12 col-md-5 col-lg-4"
   ></app-secondary-buttom>
 </div>
 
 <hr />
 
-<h4>Static buttons</h4>
+<app-title [titleModel]="staticTitle"></app-title>
 
 <div class="row">
   <app-secondary-buttom
     *ngFor="let button of buttonNomalModel"
     [buttonModel]="button"
-    class="col-12 col-sm-3 col-md-3"
+    class="col-12 col-sm-12 col-md-5 col-lg-4"
   ></app-secondary-buttom>
 </div>

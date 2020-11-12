@@ -1,5 +1,7 @@
-<h1>Promo Boxes</h1>
-<h3>Medium Promo box</h3>
+<!-- <h1>Promo Boxes</h1> -->
+<app-title [titleModel]="bigTitle"></app-title>
+
+<app-title [titleModel]="currentPromoboxTitle"></app-title>
 <hr />
 <div class="row">
   <app-promobox
@@ -9,8 +11,7 @@
   ></app-promobox>
 </div>
 
-<hr />
-<h3>Modern Promo box</h3>
+<app-title [titleModel]="modernPromoboxTitle"></app-title>
 <hr />
 <div class="row">
   <app-promobox-card
