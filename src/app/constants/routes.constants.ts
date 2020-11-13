@@ -3,6 +3,7 @@ export class RoutesConstants {
     BUTTONS: 'buttons',
     CARDS: 'cards',
     LINKS: 'links',
-    PROMOS: 'promos'
+    PROMOS: 'promos',
+    COLORS: 'colors'
   };
 }

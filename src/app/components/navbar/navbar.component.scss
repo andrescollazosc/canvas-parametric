@@ -1,57 +1,57 @@
 @import "../../styles/abstracs/variables";
 
-.container-navbar {
+.container-main {
+  height: 5px;
   width: 220px;
-  height: 100px;
   position: relative;
-  // float: left;
   top: 0;
   z-index: 3;
 }
 
-.container-main {
+.nav-wrapper {
   position: fixed;
   height: 100%;
   width: 220px;
   padding: 30px;
   background: $ligth-gray-color 0% 0% no-repeat padding-box;
-}
 
-.img-navbar {
-  width: 145px;
-  z-index: 4;
-}
+  &__img-navbar {
+    width: 145px;
+    z-index: 4;
+  }
 
-.navbar-items {
-  display: flex;
-  flex-direction: column;
-}
+  &__navbar-items {
+    display: flex;
+    flex-direction: column;
+  }
 
-.navbar-items a {
-  text-decoration: none;
-  // -webkit-transition: all 0.2s ease-out;
-  // -moz-transition: all 0.2s ease-out;
-  // -o-transition: all 0.2s ease-out;
-}
+  &__navbar-items a {
+    text-decoration: none;
+  }
 
-.label {
-  text-transform: uppercase;
-  color: $gray-color;
-  margin-top: 22px;
-  letter-spacing: 0.45px;
-  font-weight: 600;
-  font-size: 18px;
-}
+  &__label {
+    text-transform: uppercase;
+    color: $gray-color;
+    margin-top: 22px;
+    letter-spacing: 0.45px;
+    font-weight: 600;
+    font-size: 18px;
+  }
 
-.item {
-  padding: 8px 0 5px 25px;
-  color: $tertiary-color;
-  font-weight: 600;
-  font-size: 16px;
+  &__item {
+    padding: 5px 0 5px 20px;
+    color: $tertiary-color;
+    font-weight: 600;
+    font-size: 16px;
+  }
 }
 
 a:focus {
   background-color: $tertiary-color;
   color: $primary-color;
   border-radius: 4px;
+}
+
+a:not(:focus):hover {
+  filter: brightness(150%);
 }

@@ -1,0 +1,73 @@
+.gray-scale {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &__light-gray {
+    background: #d7dfe0;
+    padding: 20px;
+  }
+
+  &__gray {
+    background: #abb2bd;
+    padding: 20px;
+  }
+
+  &__dark-gray {
+    background: #46535c;
+    color: white;
+    padding: 20px;
+  }
+
+  &__dark-solid-gray {
+    background: #29333b;
+    color: white;
+    padding: 20px;
+  }
+}
+
+// Palette
+
+.parametric-blue {
+  width: 100%;
+  height: 50px;
+  background: #3997AB;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+
+  &__name-color {
+    width: 30%;
+  }
+
+  &__code-color {
+    width: 70%;
+  }
+
+}
+
+.parametric-blue-scale {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-weight: 300;
+
+  &__color-code-1 {
+    background: #5CC8D4;
+    width: 80%;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  &__color-code-2 {
+    background: #236978;
+    width: 80%;
+    text-align: center;
+    padding-top: 10px;
+  }
+}

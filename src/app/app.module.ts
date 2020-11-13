@@ -16,6 +16,8 @@ import { PromoboxComponent } from './components/promobox/promobox.component';
 import { PromosComponent } from './pages/promos/promos.component';
 import { PromoboxCardComponent } from './components/promobox-card/promobox-card.component';
 import { TitleComponent } from './components/title/title.component';
+import { ColorPageComponent } from './pages/color-page/color-page.component';
+import { PaleteColorsComponent } from './components/palete-colors/palete-colors.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { TitleComponent } from './components/title/title.component';
     PromoboxComponent,
     PromosComponent,
     PromoboxCardComponent,
-    TitleComponent
+    TitleComponent,
+    ColorPageComponent,
+    PaleteColorsComponent
   ],
   imports: [
     BrowserModule,
